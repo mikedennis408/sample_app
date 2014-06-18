@@ -1,1 +1,6 @@
-chapter 7.4.2 A Gravatar image and a sidebar
+chapter 8.2.1
+
+basically about to create the code for the "remember_token". A stored random string that will
+be hashed and saved on the user model. The remember_token is saved as a cookie. Any time the
+user visits the web page the cookie will be compated with the hashed value. If there is a 
+match then the user will be automatically logged in. 
